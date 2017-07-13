@@ -1,0 +1,231 @@
+#clinic_review_form_container .temp_hidden_fields {
+  display: none; }
+#clinic_review_form_container .input input, #clinic_review_form_container .input textarea {
+  float: left;
+  clear: both;
+  margin: 0px;
+  width: 480px; }
+#clinic_review_form_container .input.boolean input {
+  width: auto; }
+#clinic_review_form_container .input.review_rating_field_container {
+  position: relative;
+  margin: 0px !important; }
+  #clinic_review_form_container .input.review_rating_field_container .review_rating_field {
+    display: block !important;
+    visibility: hidden;
+    width: 75px;
+    position: absolute;
+    z-index: 0;
+    top: 1px;
+    width: 200px !important; }
+#clinic_review_form_container label {
+  clear: both; }
+  #clinic_review_form_container label.boolean {
+    clear: none;
+    margin-left: 3px;
+    line-height: 14px; }
+
+.ui-dialog #clinic_review_form_container, .ui-dialog #register_office_account_request_container {
+  padding: 22px 30px; }
+  .ui-dialog #clinic_review_form_container .input, .ui-dialog #register_office_account_request_container .input {
+    margin: 0px 0px 20px 0px; }
+    .ui-dialog #clinic_review_form_container .input input, .ui-dialog #clinic_review_form_container .input textarea, .ui-dialog #register_office_account_request_container .input input, .ui-dialog #register_office_account_request_container .input textarea {
+      float: right;
+      clear: none;
+      margin: 0px;
+      width: 350px !important; }
+    .ui-dialog #clinic_review_form_container .input input, .ui-dialog #register_office_account_request_container .input input {
+      height: 36px; }
+    .ui-dialog #clinic_review_form_container .input select, .ui-dialog #register_office_account_request_container .input select {
+      margin: 0px; }
+    .ui-dialog #clinic_review_form_container .input #clinic_rating, .ui-dialog #register_office_account_request_container .input #clinic_rating {
+      float: left !important; }
+  .ui-dialog #clinic_review_form_container label, .ui-dialog #register_office_account_request_container label {
+    clear: none;
+    float: left;
+    width: 100px;
+    text-align: left;
+    font-size: 14px;
+    font-family: arial;
+    font-weight: normal;
+    color: #8c8c8c;
+    padding-top: 5px; }
+    .ui-dialog #clinic_review_form_container label#rating_label{
+      color: #f55902;
+      padding-top: 0px; }
+  .ui-dialog #clinic_review_form_container .input.boolean {
+    padding: 15px 0px 0px 110px; }
+
+  .ui-dialog #clinic_review_form_container .input.boolean table td{
+    padding: 0px 0px 0px 0px; }
+  .ui-dialog #clinic_review_form_container .input.boolean table td label{
+    white-space: nowrap; }
+
+    .ui-dialog #clinic_review_form_container .input.boolean input {
+      width: auto !important;
+      height: auto !important;
+      float: none !important; }
+    .ui-dialog #clinic_review_form_container .input.boolean label, .ui-dialog #register_office_account_request_container .input.boolean label {
+      float: none; }
+  .ui-dialog #clinic_review_form_container #clinic_review_recaptha, .ui-dialog #clinic_review_form_container #office_account_request_recaptha, .ui-dialog #register_office_account_request_container #clinic_review_recaptha, .ui-dialog #register_office_account_request_container #office_account_request_recaptha {
+    padding-left: 125px; }
+  .ui-dialog #clinic_review_form_container #review_submit_btn, .ui-dialog #clinic_review_form_container #office_account_request_submit, .ui-dialog #register_office_account_request_container #review_submit_btn, .ui-dialog #register_office_account_request_container #office_account_request_submit {
+    background: url(../images/btn_lw_submit.png) no-repeat;
+    width: 140px;
+    height: 40px;
+    margin-left: 127px;
+    text-indent: -9999px;
+    border: none;
+    cursor: pointer; }
+
+.ui-dialog.ui-widget.clinic_review_form_popup {
+  background: #FFFFFF; }
+
+.rating_average_top {
+  margin-top: 25px; }
+
+.reviews_container {
+  padding: 10px 0px 30px 0px; }
+  .reviews_container .review_heading_container {
+    padding: 0px 0px 8px 0px;
+    /*background: #51c0f9;*/
+    margin: 10px 0px;
+    border-bottom: 1px solid #bfbfbf; }
+    .reviews_container .review_heading_container h1 {
+      color: #252525;
+      margin: 0px;
+      line-height: 20px;
+      font-size: 18px; }
+    .reviews_container .review_heading_container h1 a {color: #252525; text-decoration: none !important;}
+      .reviews_container .review_heading_container .review_summary {
+        float: left;
+        width: 335px; }
+    .reviews_container .review_heading_container .review_count_summary {
+      float: right;
+      width: 200px;
+      text-align: left; }
+      .reviews_container .review_heading_container .review_count_summary table {
+        float: right; }
+        .reviews_container .review_heading_container .review_count_summary table td {
+          line-height: 1em; }
+          .reviews_container .review_heading_container .review_count_summary table td .total_review {
+            color: #252525; }
+  .reviews_container .pagination a {
+    color: #048955 !important; }
+  .reviews_container .pagination span.page a {
+    color: #048955 !important; }
+  .reviews_container .clinic_review_container {
+    border-top: 1px solid #D8D8D8;
+    padding: 10px 0px 0px 0px;
+    margin: 10px 0px 0px 0px; }
+    .reviews_container .clinic_review_container:first-child {
+      border: none;
+      margin-top: 0px;
+      padding-top: 0px; }
+    .reviews_container .clinic_review_container .review_rating_title_container {
+      padding: 0px 0px; }
+      .reviews_container .clinic_review_container .review_rating_title_container .review_rating {
+        float: left;
+        width: 50px; }
+      .reviews_container .clinic_review_container .review_rating_title_container .review_title {
+        margin-left: 95px;
+        color: #252525; }
+      .reviews_container .clinic_review_container .review_rating_title_container .review_meta {
+        clear: both;
+        overflow: hidden; }
+    .reviews_container .clinic_review_container .review_comment {
+      margin: 14px 0px 10px 0px;
+      padding: 0px 0px;
+      color: #252525; }
+
+.pro_office_page .reviews_container .review_heading_container {
+  /*background: #f55902;*/ }
+
+#clinic_review_form_container {
+  padding: 0px 0px; }
+  #clinic_review_form_container label {
+    padding-bottom: 10px;
+    font-weight: normal;
+    font-size: 14px;
+    color: #8B8B8B; }
+    #clinic_review_form_container label#rating_label {
+      color: #252525;
+      font-weight: normal; }
+  #clinic_review_form_container #review_comment {
+    width: 96%; }
+  #clinic_review_form_container #clinic_rating {
+    float: right; }
+  #clinic_review_form_container #open_review_popup, #clinic_review_form_container .social_icon_btns {
+    margin: 0px;
+    background: #00854E;
+    border: none;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+    width: auto;
+    text-transform: uppercase; }
+  #clinic_review_form_container .social_icon_btns {
+    text-transform: none !important;
+    margin-left: 5px !important;
+    padding: 7px 3px 7px 26px !important;
+    font-size: 13px !important; }
+  #clinic_review_form_container .linkedin_24_icon {
+    background: #00854e url(../images/linkedin-24x24.png) no-repeat 2px 3px !important; }
+  #clinic_review_form_container .facebook_24_icon {
+    background: #00854e url(../images/facebook-24x24.png) no-repeat 2px 3px !important; }
+  #clinic_review_form_container .twiiter_24_icon {
+    background: #00854e url(../images/twitter-24x24.png) no-repeat 2px 3px !important; }
+  #clinic_review_form_container #review_submit_btn {
+    margin: 0px 0px 0px 420px; }
+
+#review_success_msg {
+  padding: 10px 10px; }
+
+.review_meta {  color: #8b8b8b;}
+
+#clinic_review_form_container form .input {
+  clear: both;
+  margin: 0 0 10px;
+  overflow: hidden;
+}
+
+#clinic_review_form_container form .input label {
+  float: left;
+}
+
+#clinic_review_form_container form .hint {
+  clear: both;
+  color: #bbb;
+  display: block;
+  font-size: 0.8em;
+  margin-left: 110px;
+}
+
+.sep_double_border_darker {
+  background: url(../images/separator_darker.png) repeat-x left top;
+  height: 4px;
+  margin-top: 28px;
+
+}
+
+table.table_no_border,table.table_no_border td {
+  border: none;
+}
+
+table.table_no_padding tr td { padding: 0px; border: none;}
+
+.clinic_review_form_popup {
+  z-index: 400;
+}
+/* new clearfix */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  }
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+.powered_text { font-size: 80%; float:right;}
